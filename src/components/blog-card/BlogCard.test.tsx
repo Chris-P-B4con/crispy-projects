@@ -1,5 +1,3 @@
-// templates/component/BlogCard.test.js
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import BlogCard from './BlogCard';

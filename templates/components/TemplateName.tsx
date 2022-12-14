@@ -1,5 +1,3 @@
-// templates/ComponentTemplate.tsx
-
 import React from 'react';
 import * as styles from './TemplateName.style';
 
