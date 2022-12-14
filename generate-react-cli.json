@@ -1,0 +1,28 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": true,
+  "cssPreprocessor": "css",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false,
+      "customTemplates": {
+        "component": "templates/components/TemplateName.tsx",
+        "style": "templates/components/TemplateName.style.ts",
+        "test": "templates/components/TemplateName.test.tsx",
+        "story": "templates/components/TemplateName.logic.ts"
+      }
+    },
+    "page": {
+      "path": "src/pages",
+      "withStyle": false,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    }
+  }
+}
