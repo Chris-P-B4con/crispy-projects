@@ -1,5 +1,3 @@
-// templates/component/TemplateName.test.js
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import TemplateName from './TemplateName';
