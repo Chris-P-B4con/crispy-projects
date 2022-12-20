@@ -4,18 +4,17 @@ import React from 'react';
 import { CardContent, Typography, Wrapper } from './BlogCard.style';
 import BlogCardHeader from 'components/BlogCardHeader';
 import BlogCardMedia from 'components/BlogCardMedia';
-import { useBlogCard } from './BlogCard.logic';
 
 const BlogCard = (props: BlogCardProps) => {
-  const { avatar, image, onClickHandler, title, subTitle } = props;
+  const { author, description, image, onClickHandler, title, subTitle } = props;
   return (
     <Wrapper data-testid='BlogCard'>
       <CardActionArea sx={{ borderRadius: 'var(--border-radius)' }} onClick={onClickHandler}>
-        <BlogCardHeader avatar={avatar} title={title} subTitle={subTitle} />
+        <BlogCardHeader avatar={author} title={title} subTitle={subTitle} />
         <BlogCardMedia url={image.url} alt={image.alt} />
         <CardContent>
           <Typography variant='body2' color='text.secondary'>
-            {image.description}
+            {description}
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -26,9 +25,11 @@ const BlogCard = (props: BlogCardProps) => {
 export default BlogCard;
 
 export interface BlogCardProps {
-  avatar?: { alt: string; src: string };
-  image: { alt: string; description: string; title: string; url: string };
+  author?: { alt: string; src: string };
+  description: string;
+  image: { alt: string; url: string };
   onClickHandler?: () => void;
   subTitle?: string;
+  tags?: string[];
   title?: string;
 }

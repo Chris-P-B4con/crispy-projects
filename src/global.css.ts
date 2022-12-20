@@ -70,14 +70,14 @@ export const responsiveTheme = (mode: PaletteMode) => ({
 
 export const GlobalStyle = createGlobalStyle`
   .App {
-    overflow: auto;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    overflow: auto;
   }
   #root {
-    height: 100vh;
+    height: 100%;
     --border-radius: 6px;
     --shadow-color: 0deg 0% 26%;
     --shadow-elevation-low:
@@ -107,7 +107,7 @@ export const GlobalStyle = createGlobalStyle`
   
   body {
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     padding: 0;
     margin: 0;
     -webkit-font-smoothing: antialiased;

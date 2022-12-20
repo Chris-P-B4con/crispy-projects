@@ -9,7 +9,6 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   cursor: pointer;
   transition: 300ms all ease-in-out;
-  max-width: 350px;
   background-color: ${(props) => props.theme.palette.background.level1};
   box-shadow: var(--shadow-elevation-medium);
   border-radius: var(--border-radius);
