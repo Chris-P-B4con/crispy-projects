@@ -16,6 +16,7 @@ export const Wrapper = styled.div`
     box-shadow: var(--shadow-elevation-high);
   }
   display: flex;
+  flex-direction: column ;
 `;
 
 export { Button, CardActions, CardContent, CardMedia, Typography };

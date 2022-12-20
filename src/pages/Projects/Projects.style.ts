@@ -13,14 +13,8 @@ export const ProjectGrid = styled.div`
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  grid-auto-flow:row;
+  grid-auto-flow: row;
   margin: 0;
 `;
 
-export const ProjectItem = styled.div<ItemProps>`
-  max-width: ${(props) => props.width || 'fit-content'};
-`;
-
-interface ItemProps {
-  width?: string;
-}
+export const ProjectItem = styled.div``;
