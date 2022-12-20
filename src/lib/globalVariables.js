@@ -3,29 +3,44 @@ export const COLORS = {
     primary: {
       main: '#ab47bc',
       light: '#df78ef',
-      dark: '#790e8b',
-      text: '#ffffff'
+      dark: '#790e8b'
     },
     secondary: {
       main: '#ce93d8',
       light: '#ffc4ff',
-      dark: '#9c64a6',
-      text: '#000000'
+      dark: '#9c64a6'
+    },
+    text: {
+      primary: '#ffffff',
+      secondary: 'rgba(255, 255, 255, 0.7)',
+      disabled: 'rgba(255, 255, 255, 0.5)'
     },
     error: '#E2231A',
     buttonLabelActive: '#DCF8FF',
-    background: '#121212'
+    background: 'rgb(26, 32, 39)',
+    level1: 'rgb(18, 18, 18)',
+    level2: '#424242'
   },
   light: {
-    main: '#1E4471', // Cisco Ocean Blue
-    light: '#00BCEB', // Cisco Sky Blue
-    dark: '#0D274D', // Cisco Midnight Blue
-    contrastText: '#FFFFFF',
-    text: '#DCF8FF',
+    primary: {
+      main: '#ab47bc',
+      light: '#df78ef',
+      dark: '#790e8b'
+    },
+    secondary: {
+      main: '#ce93d8',
+      light: '#ffc4ff',
+      dark: '#9c64a6'
+    },
+    text: {
+      primary: 'rgba(0, 0, 0, 0.87)',
+      secondary: 'rgba(0, 0, 0, 0.6)',
+      disabled: 'rgba(0, 0, 0, 0.38)'
+    },
     error: '#E2231A',
     buttonLabelActive: '#DCF8FF',
-    h1: '#DCF8FF',
-    h2: '#DCF8FF',
-    background: '#fffff'
+    background: '#E7EBF0',
+    level1: '#FFFFFF',
+    level2: '#424242'
   }
 };
