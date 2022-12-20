@@ -1,10 +1,15 @@
 import React from 'react';
-import * as styles from './TemplateName.style';
+import { useTemplateName } from './TemplateName.logic';
+import { Wrapper } from './TemplateName.style';
 
-const TemplateName = () => (
-  <styles.Wrapper data-testid="TemplateName">
-    <h1>TemplateName component</h1>
-  </styles.Wrapper>
-);
+const TemplateName = (props: TemplateNameProps) => {
+  return (
+    <Wrapper data-testid='TemplateName'>
+      <h1>TemplateName component</h1>
+    </Wrapper>
+  );
+};
 
 export default TemplateName;
+
+export interface TemplateNameProps {}
