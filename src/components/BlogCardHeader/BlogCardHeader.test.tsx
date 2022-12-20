@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import BlogCard from './BlogCard';
+import BlogCardHeader from './BlogCardHeader';
 
-it('BlogCard should mount', () => {
+it('BlogCardHeader should mount', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<BlogCard />, div);
+  ReactDOM.render(<BlogCardHeader />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
