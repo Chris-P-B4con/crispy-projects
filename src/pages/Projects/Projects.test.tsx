@@ -6,7 +6,7 @@ import Projects from './Projects';
 describe('<Projects />', () => {
   test('it should mount', () => {
     render(<Projects />);
-    
+
     const projects = screen.getByTestId('Projects');
 
     expect(projects).toBeInTheDocument();

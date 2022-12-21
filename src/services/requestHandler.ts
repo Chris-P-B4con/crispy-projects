@@ -7,7 +7,7 @@ export class RequestInterface {
 
   private databaseId = '';
 
-  public constructor(baseUrl?: string, ) {
+  public constructor(baseUrl?: string) {
     this.baseUrl = baseUrl ?? this.baseUrl;
   }
 

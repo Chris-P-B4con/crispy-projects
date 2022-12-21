@@ -12,7 +12,7 @@ export const ProjectGrid = styled.div`
   row-gap: 32px;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-auto-flow: row;
   margin: 0;
 `;

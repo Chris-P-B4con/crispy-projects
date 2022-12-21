@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }: any) {
   return (
     <div>
       <Head>

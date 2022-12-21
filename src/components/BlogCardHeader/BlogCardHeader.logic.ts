@@ -1,4 +1,1 @@
-
-export const useBlogCardHeader = () => {
-
-}
+export const useBlogCardHeader = () => {};
