@@ -8,6 +8,7 @@ import { createTheme } from '@mui/material/styles'
 import { ThemeProvider } from 'styled-components'
 
 import Projects from './projects'
+import NavBar from 'hoc/NavBar/NavBar'
 
 const ColorModeContext = React.createContext({ toggleColorMode: () => {} })
 
@@ -32,6 +33,7 @@ export default function HomePage() {
           <GlobalStyle />
           <CssBaseline />
           <div className='App'>
+            <NavBar selected='projects'/>
             <Projects />
           </div>
         </ThemeProvider>

@@ -71,10 +71,10 @@ export const responsiveTheme = (mode: PaletteMode) => ({
 
 export const GlobalStyle = createGlobalStyle`
   .App {
-    align-items: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    overflow: auto;
     height: 100%;
     --border-radius: 6px;
     --shadow-color: 0deg 0% 26%;
