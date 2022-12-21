@@ -7,7 +7,6 @@ import Typography from '@mui/material/Typography';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  cursor: pointer;
   transition: 300ms all ease-in-out;
   background-color: ${(props) => props.theme.palette.background.level1};
   box-shadow: var(--shadow-elevation-medium);

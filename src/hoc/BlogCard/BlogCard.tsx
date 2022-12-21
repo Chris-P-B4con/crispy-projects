@@ -4,9 +4,10 @@ import React from 'react';
 import { CardContent, Typography, Wrapper } from './BlogCard.style';
 import BlogCardHeader from 'components/BlogCardHeader';
 import BlogCardMedia from 'components/BlogCardMedia';
+import BlogCardFooter from 'components/BlogCardFooter/BlogCardFooter';
 
 const BlogCard = (props: BlogCardProps) => {
-  const { author, description, image, onClickHandler, title, subTitle } = props;
+  const { author, description, image, onClickHandler, tags, title, subTitle } = props;
   return (
     <Wrapper data-testid='BlogCard'>
       <CardActionArea sx={{ borderRadius: 'var(--border-radius)' }} onClick={onClickHandler}>
@@ -18,6 +19,7 @@ const BlogCard = (props: BlogCardProps) => {
           </Typography>
         </CardContent>
       </CardActionArea>
+      <BlogCardFooter tags={tags} />
     </Wrapper>
   );
 };
