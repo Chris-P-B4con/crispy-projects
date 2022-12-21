@@ -1,20 +1,8 @@
 {
+  "semi": false,
+  "tabWidth": 2,
   "singleQuote": true,
+  "trailingComma": "all",
   "jsxSingleQuote": true,
-  "printWidth": 120,
-  "importOrder": [
-    "<THIRD_PARTY_MODULES>",
-    "^[.]|(components|config|constants|graph|hooks|services|statics|styles|testing|util)/(.*)$"
-  ],
-  "importOrderSeparation": true,
-  "importOrderCaseInsensitive": true,
-  "importOrderSortSpecifiers": true,
-  "overrides": [
-    {
-      "files": "*.ts",
-      "options": {
-        "importOrderParserPlugins": ["typescript"]
-      }
-    }
-  ]
+  "bracketSpacing": true
 }

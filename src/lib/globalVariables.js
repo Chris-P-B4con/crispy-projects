@@ -43,8 +43,8 @@ export const COLORS = {
     level1: '#FFFFFF',
     level2: '#424242',
   },
-};
+}
 
 export const TAGS = {
   coffee: '#6F4E37',
-};
+}

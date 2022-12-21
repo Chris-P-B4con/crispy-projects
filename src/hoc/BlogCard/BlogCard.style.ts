@@ -1,10 +1,10 @@
-import Button from '@mui/material/Button';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button'
+import CardActions from '@mui/material/CardActions'
+import CardContent from '@mui/material/CardContent'
+import CardMedia from '@mui/material/CardMedia'
+import Typography from '@mui/material/Typography'
 
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   transition: 300ms all ease-in-out;
@@ -16,6 +16,6 @@ export const Wrapper = styled.div`
   }
   display: flex;
   flex-direction: column;
-`;
+`
 
-export { Button, CardActions, CardContent, CardMedia, Typography };
+export { Button, CardActions, CardContent, CardMedia, Typography }
