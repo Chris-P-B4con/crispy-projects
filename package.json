@@ -18,15 +18,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.6",
-    "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "dev": "next dev",
+    "lint": "eslint src --ext .ts; eslint src --ext .tsx",
     "prettier": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "next start"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +53,7 @@
     "@typescript-eslint/eslint-plugin": "^5.47.0",
     "@typescript-eslint/parser": "^5.47.0",
     "eslint": "^8.30.0",
-    "husky": "^8.0.2"
+    "husky": "^8.0.2",
+    "typescript": "^4.9.4"
   }
 }
