@@ -1,1 +1,1 @@
-export const useBlogCardFooter = () => {};
+export const useBlogCardFooter = () => {}

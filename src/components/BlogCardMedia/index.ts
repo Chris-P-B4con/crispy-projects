@@ -1,1 +1,1 @@
-export { default } from './BlogCardMedia';
+export { default } from './BlogCardMedia'

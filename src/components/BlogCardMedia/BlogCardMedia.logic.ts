@@ -1,7 +1,7 @@
-import { BlogCardMediaProps } from './BlogCardMedia';
+import { BlogCardMediaProps } from './BlogCardMedia'
 
 export const useBlogCardMedia = (props: BlogCardMediaProps) => {
-  const { url, alt } = props;
+  const { url, alt } = props
 
-  return { url, alt };
-};
+  return { url, alt }
+}

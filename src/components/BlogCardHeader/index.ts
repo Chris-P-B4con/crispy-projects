@@ -1,1 +1,1 @@
-export { default } from './BlogCardHeader';
+export { default } from './BlogCardHeader'

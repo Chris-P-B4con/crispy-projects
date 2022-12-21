@@ -1,9 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import TemplateName from './TemplateName';
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import React from 'react'
+import ReactDOM from 'react-dom'
+import TemplateName from './TemplateName'
 
 it('TemplateName should mount', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<TemplateName />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
+  const div = document.createElement('div')
+  ReactDOM.render(<TemplateName />, div)
+  ReactDOM.unmountComponentAtNode(div)
+})

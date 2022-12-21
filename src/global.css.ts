@@ -1,9 +1,10 @@
-import { createTheme } from '@mui/material';
-import { createGlobalStyle } from 'styled-components';
-import { COLORS } from 'lib/globalVariables';
-import { PaletteMode } from '@mui/material';
+/* eslint-disable indent */
+import { createTheme } from '@mui/material'
+import { createGlobalStyle } from 'styled-components'
+import { COLORS } from 'lib/globalVariables'
+import { PaletteMode } from '@mui/material'
 
-export const theme = createTheme({});
+export const theme = createTheme({})
 
 export const responsiveTheme = (mode: PaletteMode) => ({
   backDrop: {
@@ -66,7 +67,7 @@ export const responsiveTheme = (mode: PaletteMode) => ({
           },
         }),
   },
-});
+})
 
 export const GlobalStyle = createGlobalStyle`
   .App {
@@ -128,4 +129,4 @@ export const GlobalStyle = createGlobalStyle`
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}`;
+}`

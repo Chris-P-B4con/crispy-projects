@@ -1,4 +1,4 @@
-import { ProjectInterface } from './Projects';
+import { ProjectInterface } from './Projects'
 
 export const dummyProjectList: ProjectInterface[] = [
   {
@@ -69,4 +69,4 @@ export const dummyProjectList: ProjectInterface[] = [
       'Making coffee is a delicate and lengthy process.. blawbefliwjefliwnemfowe fiowefj owef iowefmwoeifmw oefmwefoimw efoiwem foiw mfeowie fmowif iwoef',
     tags: ['Coffee'],
   },
-];
+]
