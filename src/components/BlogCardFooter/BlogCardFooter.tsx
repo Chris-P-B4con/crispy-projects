@@ -10,7 +10,9 @@ const BlogCardFooter = (props: BlogCardFooterProps) => {
 
       <Tags>
         {tags?.map((tag) => (
-          <Tag color={TAGS['coffee']}>{tag}</Tag>
+          <Tag color={TAGS['coffee']} key={tag}>
+            {tag}
+          </Tag>
         ))}
       </Tags>
     </Wrapper>

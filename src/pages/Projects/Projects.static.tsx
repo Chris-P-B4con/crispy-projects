@@ -6,7 +6,7 @@ export const dummyProjectList: ProjectInterface[] = [
       alt: 'coffee',
       url: 'https://www.foodandwine.com/thmb/F_vjCR6V5D8lAknKCQB5nQFXV9Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-store-coffee-beans-FT-BLOG0121-99af87cb1f104993b234e1522746e82c.jpg',
     },
-    title: 'Making Coffee',
+    title: 'Making Coffee1',
     subTitle: '10.12.2022 - Aachen',
 
     // Author of article
@@ -23,7 +23,7 @@ export const dummyProjectList: ProjectInterface[] = [
       alt: 'coffee',
       url: 'https://www.foodandwine.com/thmb/F_vjCR6V5D8lAknKCQB5nQFXV9Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-store-coffee-beans-FT-BLOG0121-99af87cb1f104993b234e1522746e82c.jpg',
     },
-    title: 'Making Coffee',
+    title: 'Making Coffee2',
     subTitle: '10.12.2022 - Aachen',
 
     // Author of article
@@ -40,7 +40,7 @@ export const dummyProjectList: ProjectInterface[] = [
       alt: 'coffee',
       url: 'https://www.foodandwine.com/thmb/F_vjCR6V5D8lAknKCQB5nQFXV9Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-store-coffee-beans-FT-BLOG0121-99af87cb1f104993b234e1522746e82c.jpg',
     },
-    title: 'Making Coffee',
+    title: 'Making Coffee3',
     subTitle: '10.12.2022 - Aachen',
 
     // Author of article
@@ -57,7 +57,7 @@ export const dummyProjectList: ProjectInterface[] = [
       alt: 'coffee',
       url: 'https://www.foodandwine.com/thmb/F_vjCR6V5D8lAknKCQB5nQFXV9Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-store-coffee-beans-FT-BLOG0121-99af87cb1f104993b234e1522746e82c.jpg',
     },
-    title: 'Making Coffee',
+    title: 'Making Coffee4',
     subTitle: '10.12.2022 - Aachen',
 
     // Author of article
