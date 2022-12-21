@@ -1,24 +1,23 @@
 import React from 'react';
 
-import BlogCard from './hoc/BlogCard';
-
-import { GlobalStyle, responsiveTheme } from './global.css';
+import { GlobalStyle, responsiveTheme } from 'global.css';
 
 import { ThemeProvider as MuiThemeProvider, CssBaseline } from '@mui/material';
 import { PaletteMode } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from 'styled-components';
-import Projects from 'pages/Projects/Projects';
+
+import Projects from './Projects';
 
 const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 
-function App() {
+export default function HomePage() {
   const [mode, setMode] = React.useState<PaletteMode>('dark');
   const colorMode = React.useMemo(
     () => ({
       toggleColorMode: () => {
         setMode((prevMode: PaletteMode) => (prevMode === 'light' ? 'dark' : 'light'));
-      }
+      },
     }),
     []
   );
@@ -38,5 +37,3 @@ function App() {
     </ColorModeContext.Provider>
   );
 }
-
-export default App;
