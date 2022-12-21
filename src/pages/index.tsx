@@ -7,7 +7,7 @@ import { PaletteMode } from '@mui/material'
 import { createTheme } from '@mui/material/styles'
 import { ThemeProvider } from 'styled-components'
 
-import Projects from './Projects'
+import Projects from './projects'
 
 const ColorModeContext = React.createContext({ toggleColorMode: () => {} })
 
