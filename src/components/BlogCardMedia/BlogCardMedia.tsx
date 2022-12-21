@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Wrapper} from './BlogCardMedia.style';
+import { Wrapper } from './BlogCardMedia.style';
 import { useBlogCardMedia } from './BlogCardMedia.logic';
 
 const BlogCardMedia = (props: BlogCardMediaProps) => {

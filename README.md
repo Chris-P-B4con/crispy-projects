@@ -1,13 +1,15 @@
-# Getting started with the Crispy Projects Blog 
-
+# Getting started with the Crispy Projects Blog
 
 ## Project Templates
+
 List of templates for interfacing different components
+
 ### Template for project preview
+
 The template of the fetched data for displaying previews of articles with the component BlogCard is defined here.
 
 ```json
-{   
+{
     // Image which is displayed on preview
     image: {
         alt: string, // Alt text of image
@@ -15,7 +17,7 @@ The template of the fetched data for displaying previews of articles with the co
     },
     title: string, // Title displayed on top
     subTitle: string, // Sub title (date of publish)
-    
+
     // Author of article
     author: {
         alt: string, // Name of the author
@@ -25,4 +27,3 @@ The template of the fetched data for displaying previews of articles with the co
     tags: string[] // List of tags describing the article
 }
 ```
-
