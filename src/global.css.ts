@@ -1,6 +1,6 @@
 import { createTheme } from '@mui/material';
 import { createGlobalStyle } from 'styled-components';
-import { COLORS } from './lib/globalVariables';
+import { COLORS } from 'lib/globalVariables';
 import { PaletteMode } from '@mui/material';
 
 export const theme = createTheme({});
@@ -8,7 +8,7 @@ export const theme = createTheme({});
 export const responsiveTheme = (mode: PaletteMode) => ({
   backDrop: {
     backdropFilter: 'blur(3px)',
-    backgroundColor: 'rgba(0,0,30,0.4)'
+    backgroundColor: 'rgba(0,0,30,0.4)',
   },
   palette: {
     mode,
@@ -19,25 +19,25 @@ export const responsiveTheme = (mode: PaletteMode) => ({
             light: COLORS.dark.primary.light,
             dark: COLORS.dark.primary.dark,
             error: COLORS.dark.error,
-            buttonLabelActive: COLORS.dark.buttonLabelActive
+            buttonLabelActive: COLORS.dark.buttonLabelActive,
           },
           secondary: {
             main: COLORS.dark.secondary.main,
             light: COLORS.dark.secondary.light,
             dark: COLORS.dark.secondary.dark,
             error: COLORS.dark.error,
-            buttonLabelActive: COLORS.dark.buttonLabelActive
+            buttonLabelActive: COLORS.dark.buttonLabelActive,
           },
           background: {
             default: COLORS.dark.background,
             level1: COLORS.dark.level1,
-            level2: COLORS.dark.level2
+            level2: COLORS.dark.level2,
           },
           text: {
             primary: COLORS.dark.text.primary,
             secondary: COLORS.dark.text.secondary,
-            disabled: COLORS.dark.text.disabled
-          }
+            disabled: COLORS.dark.text.disabled,
+          },
         }
       : {
           primary: {
@@ -45,38 +45,35 @@ export const responsiveTheme = (mode: PaletteMode) => ({
             light: COLORS.light.primary.light,
             dark: COLORS.light.primary.dark,
             error: COLORS.light.error,
-            buttonLabelActive: COLORS.light.buttonLabelActive
+            buttonLabelActive: COLORS.light.buttonLabelActive,
           },
           secondary: {
             main: COLORS.light.secondary.main,
             light: COLORS.light.secondary.light,
             dark: COLORS.light.secondary.dark,
             error: COLORS.light.error,
-            buttonLabelActive: COLORS.light.buttonLabelActive
+            buttonLabelActive: COLORS.light.buttonLabelActive,
           },
           background: {
             default: COLORS.light.background,
             level1: COLORS.light.level1,
-            level2: COLORS.light.level2
+            level2: COLORS.light.level2,
           },
           text: {
             primary: COLORS.light.text.primary,
             secondary: COLORS.light.text.secondary,
-            disabled: COLORS.light.text.disabled
-          }
-        })
-  }
+            disabled: COLORS.light.text.disabled,
+          },
+        }),
+  },
 });
 
 export const GlobalStyle = createGlobalStyle`
   .App {
     align-items: center;
     display: flex;
-    height: 100%;
     justify-content: center;
     overflow: auto;
-  }
-  #root {
     height: 100%;
     --border-radius: 6px;
     --shadow-color: 0deg 0% 26%;

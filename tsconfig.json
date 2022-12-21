@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
+    "baseUrl": "src",
     "target": "es5",
     "lib": [
       "dom",
@@ -19,9 +19,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "incremental": true
   },
   "include": [
     "src"
+, "styles/global.css.ts", "components"  ],
+  "exclude": [
+    "node_modules"
   ]
 }
