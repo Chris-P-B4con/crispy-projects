@@ -13,7 +13,6 @@ export default function MyApp({ Component, pageProps }: any) {
           content='Web site created using create-react-app'
         />
         <link rel='apple-touch-icon' href='%PUBLIC_URL%/logo192.png' />
-        <link rel='manifest' href='%PUBLIC_URL%/manifest.json' />
         <title>Crispy Projects</title>
       </Head>
       <Component {...pageProps} />
