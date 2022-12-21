@@ -1,4 +1,4 @@
-import { ProjectInterface } from './Projects'
+import { ProjectInterface } from './Projects.page'
 
 export const dummyProjectList: ProjectInterface[] = [
   {
