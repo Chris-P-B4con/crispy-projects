@@ -5,5 +5,4 @@ export const Wrapper = styled.img`
   overflow: hidden;
   max-height: 250px;
   object-fit: cover;
-  
 `

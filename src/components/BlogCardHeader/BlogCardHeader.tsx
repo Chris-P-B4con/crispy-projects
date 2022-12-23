@@ -44,7 +44,7 @@ const BlogCardHeader = (props: BlogCardHeaderProps) => {
         <CardHeaderAvatar>
           <Avatar
             {...avatar}
-            sx={{ backgroundColor: (theme) => theme.palette.primary.main }}
+            sx={{ backgroundColor: (theme) => theme.palette.secondary.dark }}
           />
         </CardHeaderAvatar>
       )}

@@ -29,7 +29,7 @@ export const Tag = styled.span<TagStyleProps>`
   width: fit-content;
   padding: 5px 10px;
   background-color: ${(props) =>
-    props.color || props.theme.palette.primary.main};
+    props.color || props.theme.palette.secondary.main};
 `
 
 interface TagStyleProps {

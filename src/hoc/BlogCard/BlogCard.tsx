@@ -1,4 +1,3 @@
-import { CardActionArea } from '@mui/material'
 import React from 'react'
 
 import { CardContent, Typography, Wrapper } from './BlogCard.style'
@@ -7,22 +6,17 @@ import BlogCardMedia from 'components/BlogCardMedia'
 import BlogCardFooter from 'components/BlogCardFooter/BlogCardFooter'
 
 const BlogCard = (props: BlogCardProps) => {
-  const { author, description, image, onClickHandler, tags, title, subTitle } =
+  const { author, description, image, tags, title, subTitle } =
     props
   return (
     <Wrapper data-testid='BlogCard'>
-      <CardActionArea
-        sx={{ borderRadius: 'var(--border-radius)' }}
-        onClick={onClickHandler}
-      >
-        <BlogCardHeader avatar={author} title={title} subTitle={subTitle} />
-        <BlogCardMedia url={image.url} alt={image.alt} />
-        <CardContent>
-          <Typography variant='body2' color='text.secondary'>
-            {description}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
+      <BlogCardHeader avatar={author} title={title} subTitle={subTitle} />
+      <BlogCardMedia url={image.url} alt={image.alt} />
+      <CardContent>
+        <Typography variant='body2' color='text.secondary'>
+          {description}
+        </Typography>
+      </CardContent>
       <BlogCardFooter tags={tags} />
     </Wrapper>
   )
