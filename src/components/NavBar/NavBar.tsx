@@ -1,31 +1,34 @@
 import React from 'react'
-import { useNavBar } from './NavBar.logic'
+import { useRouter } from 'next/router'
 import {
   ActionItem,
   Actions,
   InnerActions,
   InnerWrapper,
-  Link,
+  StyledLink,
   Title,
   Wrapper,
 } from './NavBar.style'
 
 const NavBar = (props: NavBarProps) => {
-  const { selected } = props
+  const router = useRouter()
   return (
     <Wrapper data-testid='NavBar'>
       <InnerWrapper>
-        <Title>CRISPY PROJECTS</Title>
+        <Title>
+          <StyledLink href={'/'}>CRISPY PROJECTS</StyledLink>
+        </Title>
         <Actions>
           <InnerActions>
-            <ActionItem selected={selected === 'projects'}>
-              <Link>Projects</Link>
+            <ActionItem>
+              <StyledLink href={'/'} selected={router.pathname === '/'}>
+                Projects
+              </StyledLink>
             </ActionItem>
-            <ActionItem selected={selected === 'profile'}>
-              <Link>Profile</Link>
-            </ActionItem>
-            <ActionItem selected={selected === 'about'}>
-              <Link>About</Link>
+            <ActionItem>
+              <StyledLink href={'/'} selected={router.pathname === 'about'}>
+                About
+              </StyledLink>
             </ActionItem>
           </InnerActions>
         </Actions>
@@ -36,6 +39,4 @@ const NavBar = (props: NavBarProps) => {
 
 export default NavBar
 
-export interface NavBarProps {
-  selected?: 'projects' | 'about' | 'profile'
-}
+export interface NavBarProps {}
