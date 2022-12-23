@@ -34,7 +34,10 @@ export default function HomePage() {
           <GlobalStyle />
           <CssBaseline />
           <div className='App'>
-            <NavBar />
+            <NavBar
+              changeTheme={() => setMode(mode === 'light' ? 'dark' : 'light')}
+              themeMode={mode}
+            />
             <Projects />
           </div>
         </ThemeProvider>
