@@ -36,6 +36,8 @@ export const Title = styled.h4`
 export const Actions = styled.nav`
   flex: 1.5;
   height: 100%;
+  display: flex;
+  flex-direction: row;
 `
 
 export const InnerActions = styled.ul`
@@ -46,6 +48,25 @@ export const InnerActions = styled.ul`
   margin: 0;
   height: 100%;
   gap: 20px;
+`
+
+export const RightActions = styled.ul`
+  list-style-image: initial;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  margin: 0;
+  margin-left: auto;
+  height: 100%;
+  gap: 20px;
+  ::after{
+    content: hello;
+  }
+`
+
+export const Button = styled.button`
+
 `
 
 export const ActionItem = styled.li<LinkProps>`
