@@ -18,7 +18,7 @@ export const COLORS = {
     error: '#E2231A',
     buttonLabelActive: '#DCF8FF',
     background: 'rgb(18, 18, 18)',
-    level1: 'rgb(26, 32, 39)',
+    level1: 'rgba(26, 32, 39, 100%)',
     level2: '#424242',
   },
   light: {
