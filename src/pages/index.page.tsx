@@ -1,14 +1,15 @@
 import React from 'react'
 
-import { GlobalStyle, responsiveTheme } from 'global.css'
-
-import { ThemeProvider as MuiThemeProvider, CssBaseline } from '@mui/material'
-import { PaletteMode } from '@mui/material'
+// Styling
 import { createTheme } from '@mui/material/styles'
+import { GlobalStyle, responsiveTheme } from 'global.css'
+import { PaletteMode } from '@mui/material'
+import { ThemeProvider as MuiThemeProvider, CssBaseline } from '@mui/material'
 import { ThemeProvider } from 'styled-components'
 
+// Components and Pages
 import Projects from './projects'
-import NavBar from 'hoc/NavBar/NavBar'
+import NavBar from 'components/NavBar'
 
 const ColorModeContext = React.createContext({ toggleColorMode: () => {} })
 
@@ -33,7 +34,7 @@ export default function HomePage() {
           <GlobalStyle />
           <CssBaseline />
           <div className='App'>
-            <NavBar selected='projects'/>
+            <NavBar />
             <Projects />
           </div>
         </ThemeProvider>
